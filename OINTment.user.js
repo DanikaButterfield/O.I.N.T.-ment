@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         O.I.N.T-ment
-// @namespace    http://tampermonkey.net/
+// @namespace    https://github.com/DanikaButterfield/O.I.N.T.-ment
 // @version      1
 // @description  Open In New Tab, the OINTment for the Internet.
 // @author       Danika Butterfield
