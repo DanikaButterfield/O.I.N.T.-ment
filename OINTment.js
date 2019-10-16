@@ -1,0 +1,19 @@
+// ==UserScript==
+// @name         O.I.N.T-ment
+// @namespace    http://tampermonkey.net/
+// @version      1
+// @description  Open In New Tab, the OINTment for the Internet.
+// @author       Danika Butterfield
+// @match        *://*/*
+// @grant        none
+// ==/UserScript==
+
+const $links = document.querySelectorAll("a")
+
+
+$links.forEach($link => {
+    var i;
+    for (i = 0; i < $links.length; i++) {
+        $link.target = "_blank";
+    }
+})();
